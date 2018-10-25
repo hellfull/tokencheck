@@ -1,0 +1,21 @@
+{
+    "name": "hellfull/tokenchecker",
+    "description": "Checks if the give token is authorized against a Auth Server",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hellfull",
+            "email": "fylactosdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "hellfull\\TokenChecker\\": "src"
+        }
+    }
+}
